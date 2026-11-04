@@ -6,6 +6,7 @@ This repo contains the early scaffolding for a Chaturbate-class platform with ou
 - A **global DJ audio bus** (live or pre-recorded) perfectly synced for all rooms
 
 ## Where to start
+- Hosting status and WordPress connection checklist: [`docs/operations/hosting.md`](docs/operations/hosting.md)
 - 📘 Month 1 plan: [`/docs/onboarding/month-01/README.md`](docs/onboarding/month-01/README.md)
 - ✅ Best practices: [`/docs/best-practices/README.md`](docs/best-practices/README.md)
 - ☑️ Checklists (PRs, Security, Release): [`/docs/checklists`](docs/checklists)
