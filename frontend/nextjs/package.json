@@ -6,17 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cf:build": "opennextjs-cloudflare build",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
-    "next": "^13.5.0",
+    "micro": "^10.0.1",
+    "next": "^15.5.29",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "stripe": "^13.0.0",
-    "micro": "^10.0.1"
+    "stripe": "^13.0.0"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.16",
     "eslint": "^8.50.0",
-    "eslint-config-next": "^13.5.0"
+    "eslint-config-next": "^15.5.29",
+    "wrangler": "^4.148.0"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

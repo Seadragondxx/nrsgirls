@@ -13,3 +13,7 @@ logs/
 out/
 *.tsbuildinfo
 .vercel
+# Cloudflare / OpenNext
+.open-next/
+.wrangler/
+.dev.vars
